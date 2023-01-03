@@ -1,38 +1,273 @@
-.App {
+
+
+*{
+  font-family: Amaranth-bold;
+}
+
+.form-container {
+  background: #fff;
+  left: -10px;
+  float:right;
+  border-radius: 48px;
+  padding: 60px 140px;
+  max-width: 700px;
+  margin: 50;
+  box-shadow: 0 15px 16px .17px rgba(0,0,0,0.05);
+  width:1050%;
+  height:780;
+  height: 1550px;
+  max-height: 550px;
+  background-color: rgb(82, 122, 92);
+  background:url('./img/MascotasHD3.webp') ;
+  background-size: 100%;
+}
+
+#MovingForm{
+  width: -150px ;
+  left: -10px;
+  float:right;
+}
+#MovingForm2{
+  background: #fff;
+  float:initial;
+  border-radius: 550px;
+  padding: 30px 90px;
+  max-width: 900px;
+  box-shadow: 0 15px 16px .17px rgba(0.1,0.09,0.07,0.05);
+  width:100%;
+  height: 700px;
+  max-height: 1000px;
+  background-color: rgb(82, 122, 92);
+  background:url(https://scotiabankfiles.azureedge.net/scotiabank-chile/img/landing-page/pet/centro-fundacion-julieta.png) ;
+  background-size: 100%;
+}
+/* .form-container img {
+  float:right;
+  border-radius: 120px;
+  max-width: 1000px;
+  width:150%;
+  width: 110px;
+  height: 110px;
+  max-width: 100%;
+  max-height: 100%;
+} Para hacer una imagen en circulo en form*/
+
+.form-container img {
+  float:right;
+  border-radius: 120px;
+  max-width: 1000px;
+  width:150%;
+  width: 110px;
+  height: 110px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project {
+  padding: 180px 0;
+  position: relative;
+  background-color: rgb(82, 122, 92);
+}
+.project h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.project p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.project .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.project .nav.nav-pills .nav-item {
+  width: 33.33333%;
+}
+.project .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+.project .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #02fd1fac -5.91%, #fbb861 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.project .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+.project .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.nav-link#projects-tabs-tab-first {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+.nav-link#projects-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link#projects-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* //lo relacionado al proyecto */
+.proj-imgbx {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  float:right;
+  width: 400px;
+  height: 200px;
+  max-width: 200%;
+  max-height: 200%;
+}
+.proj-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #067326 -5.91%, #ff8f3fcb 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.proj-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/************ Projects Css ************/
+.contact {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 60px 0 200px 0;
 }
-
-.App-link {
-  color: #61dafb;
+.contact img {
+  width: 92%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
+.contact form input, .contact form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+.contact form input:focus, .contact form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+.contact form input::placeholder, .contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+.contact form button:hover {
+  color: #fff;
+}
+.contact form button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.contact form button:hover::before {
+  width: 100%;
 }

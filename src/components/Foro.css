@@ -1,0 +1,288 @@
+.registro1{
+ font-family:sans-serif;
+}
+.logo1{
+ width: 100px;
+height:100px;
+}
+.navbar-brand nav-link{
+ text-align: center!important;
+}
+     btn-primary btn-block  {
+       background-color: rgb(36, 5, 128);
+       border-color: rgb(8, 101, 69);
+     }
+     .navbar .nav-link {
+       color: rgb(255, 251, 251) !important;
+       position:absolute top-;
+     }
+.container-fluid{
+ width: 10%;
+ padding-right:5%;
+ padding-left: 5%;
+}
+.carousel-item {
+ height: 25rem;
+ background: transperent;
+ width: 400%;
+ height: 100%;
+ overflow: hidden;
+}
+.Carousel.item {
+   height: 25rem;
+   background: transperent;
+   width: 400%;
+   height: 100%;
+   overflow: hidden;
+  }
+
+  .Prueba{
+   width:100%;
+   color:red;
+   position:relative;
+   height:780;
+   top: 0px;
+   left: -700px;
+   min-width: 200%;
+   height:800px;
+   max-height: 400px;
+   background-color: rgb(82, 122, 92);
+  }
+  
+  .Prueba2{
+   width:150%;
+   position:relative;
+   height:180;
+   top: 150;
+   left: -920px;
+   min-width: 100%;
+   height:800px;
+   max-height: 400px;
+   background-color:transparent;
+  }
+  .Prueba3{
+   width:150%;
+   position:relative;
+   height:780;
+   top: -150px;
+   left: -980px;
+   min-width: 200%;
+   height:100px;
+   max-height: 100px;
+   background-color:transparent;
+   padding: -50%;
+  }
+
+.carousel-item img {
+ opacity: 0.8;
+ width: 100%;
+ height:100%;
+ min-height: 90vh;
+ max-height: 80vh;
+ overflow: hidden;
+}
+.carousel{
+ width:100%;
+ min-height: 100vh;
+ max-height: 100vh;
+ overflow: hidden;
+}
+
+.infos{
+ bottom: 100px;
+ vertical-align: middle;
+ text-align:center;
+align-items: center;
+justify-content: center;
+color:white;
+}
+
+.project .nav.nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #02fd1fac -5.91%, #fbb861 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.infos2{
+  bottom: 100px;
+  vertical-align: middle;
+  text-align:center;
+ align-items: center;
+ justify-content: center;
+ color:black;
+ }
+ 
+#nav{
+
+    width: 500;
+    height: 100%;
+    background: linear-gradient(90.21deg, #0d871ba0 -5.91%, #fbb861 111.58%);
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+  
+}
+
+#pills-tab2{
+  background: linear-gradient(90.21deg, #9f22c265 -5.91%, #f5b803bd 111.58%);
+  top: 0;
+  left: 0;
+   transition: 0.3s ease-in-out;
+}
+.tituloRegistro{
+  color: white;
+  width:100%;
+  background: linear-gradient(90.21deg, #db6702bf -5.91%, #15d703c8 111.58%);
+  position:relative;
+  height:780;
+  min-width: 100%;
+  height: 100px;
+  max-height: 550px;
+  width: auto;
+  background-color: rgb(82, 122, 92);
+}
+.containernosotros.nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+.containernosotros .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.nav-link#projects-tabs-tab-first {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+.nav-link#projects-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link#projects-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}
+.container{
+ width:100%;
+ position:relative;
+ top: 0;
+ left: 0;
+ min-width: 100%;
+ background-color: rgb(82, 122, 92);
+}
+.containerRegistro{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  top: 0;
+  left: -50;
+  height: 550px;
+  color:white;
+}
+.container-registro{
+  width:100%;
+  position:relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 650px;
+  max-height: 850px;
+  width: auto;
+  background-color: rgb(82, 122, 92);
+ }
+.carousel-caption{
+ 
+ position:relative;
+ max-height: 50px;
+ max-width:1550px ;
+ padding-left: 60%;
+}
+.trickcenter {
+ position: fixed;
+ top: 50%;
+ left: 0%;
+ transform: translate(-50%, -50%);
+ 
+}
+.carousel-caption {
+   position: absolute;
+   z-index: 1;
+   display:table;
+   width:100%;
+   height:100%;
+}
+#logoSignup{
+  background: transperent;
+  max-width: 100%;
+  display: flex;
+height: 80vh;
+width: 100vw; 
+align-items: center;
+justify-content: center;
+}
+.carousel-caption div {
+   display:table-cell;
+   vertical-align: middle;
+   text-align:center;
+}
+.centered {
+ position: relative;
+ bottom: 100px;
+
+ vertical-align: middle;
+ text-align:center;
+}
+
+#map-canvas{
+ width: 100%;
+ height: 100%;
+ float:left;
+}
+#markers{
+ font-family: 'Roboto', sans-serif;
+ background: #333333;
+ opacity: 0.5;
+ text-align: center;
+ width: 20%;
+ height: 100%;
+ position:absolute;
+ top:0;
+ right: 0;
+ color:white;
+}
+
+#markers li{
+ list-style-type: none;
+ text-align: left;
+ margin:2px;
+}
+.fondo{
+ background:url(../img/Mascotas1.jpg) ;
+ background-size: 100%;
+}
+.juntar{
+ background-color:rgb(255, 140, 114);
+}
+#formulario{
+ background-color:rgb(255, 140, 159);;
+}
+
+#cuerpo{
+ background-image:url(../img/Mascotas1.jpg) ;
+}
+
+.hs{
+ color:rgb(255, 140, 159);;
+}
+#stick{
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: end;
+}
